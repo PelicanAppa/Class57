@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding-top: 250px;
+    text-align: center;
+    background-color: gold;
+}
+
+.profile{
+    border-radius: 50%;
+
+}
+
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: radial-gradient( rgb(230, 186, 27) 50%, rgb(255, 200, 0) 50%);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: courier;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: courier;
+    background-color: black;
+    padding: 10px;
+    border-style: double;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: courier;
+    background-color: white;
+    padding: 25px;
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+    width: 95%;
+    margin: 8px auto;
+}
+
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
